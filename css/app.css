@@ -11,6 +11,10 @@
   padding: 80px 0;
 }
 
+.hero a {
+  color: black;
+}
+
 .profile-thumbnail {
   width: 100%;
   height: auto;
@@ -40,7 +44,7 @@ section div div h2 {
 
 /*Footer*/
 .section-footer {
-  background-color: #e6e6e6;
+  background-color: #BFD4D9;
   padding: 10px 0;
 }
 
