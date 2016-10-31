@@ -1,17 +1,68 @@
 /*General*/
+html body {
+  width: 100%;
+  height: 100%;
+}
+
 .wrap {
   width: 90%;
-  max-width: 1100px;
+  max-width: auto;
   margin: 0 auto;
+}
+
+/*Slideout JS Classes*/
+.slideout-menu {
+  position: fixed;
+  left: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  padding-left: 10px;
+  background-color: gray;
+}
+
+.slideout-panel {
+  position:relative;
+  z-index: 1;
+  will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+.hamburger-menu {
+  margin: 0 10px;
+  padding: 0 15px;
+  font-size: 40px;
+  text-align: right;
+  color: #f2f2f2;
+}
+
+ul li a {
+  color: black;
 }
 
 /*Hero Section*/
 .hero {
-  background-color: #638CA6;
-  padding: 80px 0;
+  background: url("../images/herobackground.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 850px;
+  padding: 20px 0 80px 0;
 }
 
-.hero a {
+.section-1 a {
   color: black;
 }
 
@@ -22,13 +73,13 @@
 
 /*Section One*/
 .section-1 {
-  background-color: #BFD4D9;
+  background-color: #f2f2f2;
   padding: 80px 0;
 }
 
 /*Image Gallery*/
 .section-gallery {
-  background-color: #BFD4D9;
+  background-color: #f2f2f2;
   padding: 80px 0;
 }
 
@@ -44,7 +95,7 @@ section div div h2 {
 
 /*Footer*/
 .section-footer {
-  background-color: #BFD4D9;
+  background-color: #f2f2f2;
   padding: 10px 0;
 }
 
