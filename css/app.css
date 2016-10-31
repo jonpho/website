@@ -23,7 +23,8 @@ html body {
   -webkit-overflow-scrolling: touch;
   display: none;
   padding-left: 10px;
-  background-color: gray;
+  padding-top: 10px;
+  background-color: #538cc6;
 }
 
 .slideout-panel {
@@ -42,7 +43,7 @@ html body {
   display: block;
 }
 
-.hamburger-menu {
+.hamburger-icon {
   margin: 0 10px;
   padding: 0 15px;
   font-size: 40px;
@@ -52,6 +53,10 @@ html body {
 
 ul li a {
   color: black;
+}
+
+ul li a:hover {
+  color: #ffffff;
 }
 
 /*Hero Section*/
