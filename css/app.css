@@ -63,7 +63,7 @@ ul li a:hover {
 .hero {
   background: url("../images/herobackground.jpg") no-repeat center center;
   background-size: cover;
-  min-height: 850px;
+  min-height: 100vh;
   padding: 20px 0 80px 0;
 }
 
